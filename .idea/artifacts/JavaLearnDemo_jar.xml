@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaLearnDemo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaLearnDemo_jar</output-path>
+    <root id="archive" name="JavaLearnDemo.jar">
+      <element id="module-output" name="JavaLearnDemo" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpclient-4.5.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/jna-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpmime-4.5.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/fluent-hc-4.5.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpcore-4.4.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/jna-platform-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpclient-win-4.5.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpclient-osgi-4.5.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/httpcomponents-client-4.5.7-bin/httpcomponents-client-4.5.7/lib/httpclient-cache-4.5.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
