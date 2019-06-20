@@ -65,13 +65,12 @@ public class Main {
                 });
             }
         });
-//        jsonObject.put("entry", new JSONObject(){
-//            {
-//                put("key3", "value3");
-//                put("key4", "value4");
-//            }
-//        });
-
+        jsonObject.put("entry", new JSONObject(){
+            {
+                put("key3", "value3");
+                put("key4", "value4");
+            }
+        });
         System.out.println(jsonObject.toString());
         System.out.println("===============================");
 //        System.out.println(execute(jsonObject).toString());
