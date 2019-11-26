@@ -3,6 +3,7 @@ package com.pengxg.demo.generic;
 import cn.hutool.json.JSON;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -34,6 +35,10 @@ public class Main {
 
         Manipulator manipulator = new Manipulator();
         System.out.println("manipulator: " + Arrays.toString(manipulator.getClass().getTypeParameters()));
+
+        Class c1 = new ArrayList<Number>().getClass();
+        Class c2 = new ArrayList<String>().getClass();
+        System.out.println(c1 == c2); // true, 类型限定被擦除了
 
         System.out.println("【结论】： 即使已经给几个泛型类实例指定了类型信息，但是在运行期仍然无法获取到指定的类型信息(<String>, <Integer>, " +
                 "<String, JSON>), 这就是java语言泛型的擦除机制，这是为了兼容原先的旧代码。" +
